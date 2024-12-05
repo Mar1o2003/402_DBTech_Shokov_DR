@@ -1,0 +1,30 @@
+{
+    "name": "mario2003/cold-hot",
+    "description": "Implementation of the game \"Cold-hot\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mario2003\\Cold-hot\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Game.php",
+	    "src/Database.php"
+        ]
+    },
+    "bin": [
+        "bin/cold-hot"
+    ],
+    "authors": [
+        {
+            "name": "mario2003",
+            "email": "shokov.cosmo@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
